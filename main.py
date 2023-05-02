@@ -16,6 +16,8 @@ class Screen:
         title_1.pack(pady=10)
         self.subtitle_1 = Label(text="If you stop typing, in 5 seconds you will lose everything that you've written.", font=('Arial', 15),fg='grey')
         self.subtitle_1.pack(pady=4)
+        title_logo = Label(text="MI|YA", font=('Arial', 15, "bold"))
+        title_logo.place(x=10, y=10)
         self.my_frame = Frame(self.window)
         self.my_frame.pack(pady=20,padx=50)
         self.create_text()
